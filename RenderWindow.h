@@ -20,8 +20,9 @@ class RenderWindow
 
 		/* Window Settings */
 
-		int				width, height;
-		const char*		title;
+		int					width, height;
+		const char*			title;
+		int					x, y;
 
 		/* WNDPROC In Class */
 
@@ -32,9 +33,7 @@ class RenderWindow
 		void SetWindowPosition(int x, int y);
 
 	public:
-
-		int				x, y;
-
+	/* Functions */
 		RenderWindow(LPCSTR			classname ="WindowClass");
 		~RenderWindow();
 
