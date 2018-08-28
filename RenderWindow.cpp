@@ -1,7 +1,5 @@
 #include "RenderWindow.h"
 
-#include <iostream>
-
 void RenderWindow::SetWindowSize(int width, int height)
 {
 	this->width = width;
