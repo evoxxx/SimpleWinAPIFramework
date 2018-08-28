@@ -1,6 +1,6 @@
 # SimpleWinAPIFramework
 
-Simple WinApi Framework made from noodles :D .
+Simple WinApi Framework made from brain noodles :D .
 
 See main.cpp for example 
 
