@@ -1,12 +1,10 @@
+#include "RenderWindow.h" /* iincluding header */
 
-
-
-#include "RenderWindow.h"
-
-#include <iostream>
+#include <iostream> /* for printf */
 
 void main() 
 {
+	/* Creating Renderer */
 	RenderWindow Renderer;
 
 	if (!(Renderer.Create(1024, 768, "Hello World")))
@@ -16,8 +14,10 @@ void main()
 
 	while (TRUE)
 	{
+		/* Getting the message */
 		Renderer.GetWindowMessage(&msg);
 
+		/* If the message recevie the "Closing Window" or Pressing ESC , destroy loop */
 		if ((msg.message == WM_QUIT) || (msg.message == WM_KEYDOWN && msg.wParam == VK_ESCAPE))
 			break;
 	}
