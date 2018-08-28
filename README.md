@@ -1,0 +1,2 @@
+# SimpleWinAPIFramework
+Simple WinApi Framework
