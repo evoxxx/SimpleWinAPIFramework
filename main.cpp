@@ -1,4 +1,4 @@
-#include "RenderWindow.h" /* iincluding header */
+#include "RenderWindow.h" /* including header */
 
 #include <iostream> /* for printf */
 
